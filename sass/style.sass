@@ -1,0 +1,44 @@
+$fonts: "OpenSans", sans-serif
+$header-color: #446CB3
+$body-color: #C8F7C5
+$form-control-color: white
+$background-color: #C8F7C5
+
+*
+  box-sizing: border-box
+
+body
+  margin: 0 auto
+  font-family: $fonts
+  background: $background-color
+
+.navbar
+  background: $header-color
+  border-color: $header-color
+  .navbar-header>a
+    color: black
+  .navbar-nav>li>a
+    color: black
+  .navbar-nav>.active>a
+    background-color: $body-color
+    font-weight: 600
+    color: black
+
+.jumbotron 
+  margin-top: 50px
+  height: 300px
+  background-image: url(https://images.pexels.com/photos/163828/poker-game-play-gambling-163828.jpeg?h=350&auto=compress&cs=tinysrgb)
+  background-repeat: no-repeat
+  background-size: cover
+  button
+    margin-top: 50px
+
+.game 
+  min-height: 300px
+  margin-bottom: 50px
+  .container
+    margin-top: 50px    
+
+.footer
+  background-color: $header-color
+  text-align: center

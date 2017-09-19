@@ -1,0 +1,24 @@
+{
+  "name": "kodilla-zadanie8.3",
+  "version": "1.0.0",
+  "description": "My notes",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martakedzior/kodilla-zadanie8.3.git"
+  },
+  "keywords": [],
+  "author": "Marta Kedzior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martakedzior/kodilla-zadanie8.3/issues"
+  },
+  "homepage": "https://github.com/martakedzior/kodilla-zadanie8.3#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
