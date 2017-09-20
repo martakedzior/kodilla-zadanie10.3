@@ -2,6 +2,8 @@
 // Excercise 10.3
 
 $(function(){
+	console.log('DOM loaded - you can have fun');
+
     var carouselList = $("#carousel ul");
 
 	setInterval(changeSlide, 3000); 
